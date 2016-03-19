@@ -4,7 +4,7 @@
   "description": "Project from reactjsprogram",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
   },
   "repository": {
     "type": "git",
