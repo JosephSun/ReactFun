@@ -1,0 +1,22 @@
+{
+  "name": "reactfun",
+  "version": "1.0.0",
+  "description": "Project from reactjsprogram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephSun/ReactFun.git"
+  },
+  "author": "Joseph Sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephSun/ReactFun/issues"
+  },
+  "homepage": "https://github.com/JosephSun/ReactFun#readme",
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
