@@ -1,1 +1,5 @@
-module.exports = {}; 
+module.exports = {
+    entry: [
+        './app/index.js'
+    ]
+}; 
