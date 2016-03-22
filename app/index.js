@@ -35,16 +35,19 @@ var ProfileName = React.createClass({
 
 var Avatar = React.createClass({
     render: function() {
-        <div>
-            <ProfilePic imageUrl= {this.props.user.image} />
-            <ProfileName  name = {this.props.user.name}  />
-            <ProfileLink  username = {this.props.user.username}  />
-        </div>
+        return (
+            <div>
+                <ProfilePic imageUrl= {this.props.user.image} />
+                <ProfileName  name = {this.props.user.name}  />
+                <ProfileLink  username = {this.props.user.username}  />
+            </div>
+
+        )
     }
 })
 
 
 ReactDOM.render(
-    < HelloWorld name= "Tyler" />,
+    <Avatar user= {USER_DATA} />,
     document.getElementById('app')
 );
