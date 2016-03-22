@@ -18,6 +18,8 @@
   "homepage": "https://github.com/JosephSun/ReactFun#readme",
   "dependencies": {
     "jquery": "^2.2.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
     "webpack": "^1.12.14"
   },
   "devDependencies": {
