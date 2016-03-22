@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/JosephSun/ReactFun#readme",
   "dependencies": {
-    "jquery": "^2.2.2"
+    "jquery": "^2.2.2",
+    "webpack": "^1.12.14"
   },
   "devDependencies": {
     "coffee-loader": "^0.7.2",
