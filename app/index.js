@@ -23,6 +23,14 @@ var ProfileLink = React.createClass({
             </div>
         )
     }
+});
+
+var ProfileName = React.createClass({
+    render: function () {
+        return(
+            <div>{this.props.name}</div>
+        )
+    }
 })
 
 ReactDOM.render(
