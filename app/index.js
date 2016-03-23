@@ -13,6 +13,16 @@ var ProfilePic = React.createClass({
     }
 });
 
+var Link = React.createClass({
+    render: function() {
+        return (
+                <span> 
+                    {this.props.children}
+                </span>
+                );
+    }
+});
+
 var ProfileLink = React.createClass({
     render: function () {
         return (
