@@ -8,8 +8,8 @@ var Home = require('../components/Home');
 
 var routes = {
     <Router>
-        <route path = '/' component={Main}>
-
+        <Route path = '/' component={Main}>
+            <Route path ='/home' component={Home} />
         </Route>
     </Router>
 }
