@@ -3,7 +3,11 @@ var ReactDOM = require('react-dom');
 var routes = require('./config/routes');
 
 
+// ReactDOM.render(
+//     routes,
+//     document.getElementById('app')
+// );
+
 ReactDOM.render(
-    routes,
-    document.getElementById('app')
-);
+                routes,
+                 document.getElementById('app'));
