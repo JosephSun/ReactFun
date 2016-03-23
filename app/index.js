@@ -20,7 +20,7 @@ var Link = React.createClass({
     render: function() {
         return (
                 <span style ={{color: 'blue', cursor: 'pointer'}} 
-                onClick= {this.changeURL> 
+                onClick= {this.changeURL}> 
                     {this.props.children}
                 </span>
                 );
