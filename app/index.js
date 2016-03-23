@@ -16,7 +16,7 @@ var ProfilePic = React.createClass({
 var Link = React.createClass({
     render: function() {
         return (
-                <span style {{color: 'blue', cursor: 'pointer'}}> 
+                <span style ={{color: 'blue', cursor: 'pointer'}}> 
                     {this.props.children}
                 </span>
                 );
