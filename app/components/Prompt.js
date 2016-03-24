@@ -1,6 +1,6 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
-var transparentBg = require('../styles').transparentBg;
+var transparentBg = require('../styles/index.js').transparentBg;
 
 function Prompt (props) {
   return (
