@@ -2,7 +2,7 @@ var React = require('react');
 
 var PromptContainer = React.createClass ({
     render: function() {
-        <div className = "jumbotron col-sm-6 col-sm-offset-3 text-center">
+        <div className = "jumbotron col-sm-6 col-sm-offset-3 text-center" >
             <h1>Some Header Text</h1>
             <div classNam="col-sm-12">
                 <form>
@@ -21,8 +21,8 @@ var PromptContainer = React.createClass ({
                     </buttton> 
                 </div>
             </form>
-            </div>
         </div>
+    </div>
     }
 });
 
