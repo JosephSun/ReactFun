@@ -37,5 +37,9 @@ var stacey = {
 
 var languages = ['Javascript', 'Ruby', 'Python'];
 
+
 sayName.call(stacey, languages[0], languages[1], languages[2]);
+
+var newFn = sayName.bind(stacey, languages[0], languages[1], languages[2]);// returns a new function
+
 sayName.apply(stacey, languages)
