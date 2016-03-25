@@ -7,6 +7,13 @@
 -Window Binding
 */
 
-var sayName = function(name) {
-  console.log('hello, ' + name);
+// Where is this function invoked?
+var me = {
+  name: 'joseph',
+  age: 25,
+  sayName: function() {
+    console.log(this.name);
+  },
 };
+
+me.sayName{}
