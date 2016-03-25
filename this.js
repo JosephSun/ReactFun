@@ -11,9 +11,13 @@
 var me = {
   name: 'joseph',
   age: 25,
-  sayName: function() {
-    console.log(this.name);
-  },
 };
 
-me.sayName{}
+
+
+var saynameMixin = function(obj) {
+  obj.sayName = function() {
+    console.log(this.name);
+  }
+};
+var
