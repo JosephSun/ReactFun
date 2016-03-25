@@ -1,31 +1,27 @@
 var React = require('react');
 var ConfirmBattle = require('../components/ConfirmBattle');
+
 var ConfirmBattleContainer = React.createClass({
   contextTypes: {
     router: React.PropTypes.object.isRequired
   },
-  getInitialState: function(){
+  getInitialState: function () {
     return {
-      isLoading: false,
-      playerInfo: []
+      isLoading: true,
+      playersInfo: [],
     }
   },
-  componentWillMount: function() {
-    console.log('componentWillMount');
-  },
-
   componentDidMount: function () {
     var query = this.props.location.query;
-    //fetch info from github then update state
+    // Fetch info from github then update state
   },
-  componentWillReceiveProps: function() {
-    console.log('componentWillReceiveProps');
-  }, 
-
-  render: function() {
+  render: function () {
     return (
-      <ConfirmBattle isLoading={this.state.isLoading}
-      playersinfo={this.state.playersinfo}/>
+      <ConfirmBattle
+        isLoading={this.state.isLoading}
+        playersInfo={this.state.playersInfo} />
     )
   }
-})
+});
+
+module.exports = ConfirmBattleContainer;
