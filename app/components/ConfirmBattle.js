@@ -4,7 +4,7 @@ function ConfrimBattle(props) {
   return props.isLoading === true
   ? <p> Loading! </p>
   : <p> confirm battle! </p>
-  )
+  
 }
 
 
