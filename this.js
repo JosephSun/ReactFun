@@ -26,8 +26,8 @@ var saynameMixin = function(obj) {
 
 // explicit binding
 
-var sayname = function() {
-  console.log('my name is ' + this.name);
+var sayname = function(lang1, lang2, lang3) {
+  console.log('my name is ' + this.name + lang1, + lang2 + lang3);
 };
 
 var stacey = {
@@ -35,4 +35,6 @@ var stacey = {
   age: 34,
 };
 
-sayName.call(stacey);
+var languages = ['Javascript', 'Ruby', 'Python'];
+
+sayName.call(stacey, languages[0], languages[1], languages[2]);
