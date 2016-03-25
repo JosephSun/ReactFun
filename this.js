@@ -43,3 +43,30 @@ sayName.call(stacey, languages[0], languages[1], languages[2]);
 var newFn = sayName.bind(stacey, languages[0], languages[1], languages[2]);// returns a new function
 
 sayName.apply(stacey, languages)
+
+
+
+
+
+
+
+
+
+// new binding
+var Animal = function(name, name, type) {
+  //this = {}
+  this.color = color
+  this.name = name
+  this.type = type
+}
+
+
+// window binding
+var sayAge = function() {
+  console.log(this.age);
+};
+
+ var me = {
+   age: 25
+ };
+ 
