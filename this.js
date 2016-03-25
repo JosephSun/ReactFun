@@ -7,7 +7,7 @@
 -Window Binding
 */
 
-// Where is this function invoked?
+// Implicit Binding
 var me = {
   name: 'joseph',
   age: 25,
@@ -23,3 +23,16 @@ var saynameMixin = function(obj) {
     console.log(this.name);
   }
 };
+
+// explicit binding
+
+var sayname = function() {
+  console.log('my name is ' + this.name);
+};
+
+var stacey = {
+  name: 'Stacey',
+  age: 34,
+};
+
+sayName.call(stacey);
