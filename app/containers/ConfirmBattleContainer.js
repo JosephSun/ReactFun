@@ -10,9 +10,7 @@ var ConfirmBattleContainer = React.createClass({
       playerInfo: [];
 
     }
-
-    )
-  })
+  }),
   render: function() {
     return (
       <ConfirmBattle/>
