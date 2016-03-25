@@ -13,11 +13,13 @@ var me = {
   age: 25,
 };
 
-
+var you = {
+  name: 'Joey',
+  age: 21,
+}
 
 var saynameMixin = function(obj) {
   obj.sayName = function() {
     console.log(this.name);
   }
 };
-var
