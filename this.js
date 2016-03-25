@@ -38,3 +38,4 @@ var stacey = {
 var languages = ['Javascript', 'Ruby', 'Python'];
 
 sayName.call(stacey, languages[0], languages[1], languages[2]);
+sayName.apply(stacey, languages)
