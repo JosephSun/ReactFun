@@ -13,11 +13,15 @@ var ConfirmBattleContainer = React.createClass({
   componentWillMount: function() {
     console.log('componentWillMount');
   },
-  
+
   componentDidMount: function () {
     var query = this.props.location.query;
     //fetch info from github then update state
   },
+  componentWillReceiveProps: function() {
+    console.log('componentWillReceiveProps');
+  }, 
+
   render: function() {
     return (
       <ConfirmBattle isLoading={this.state.isLoading}
