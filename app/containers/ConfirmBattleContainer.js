@@ -6,7 +6,7 @@ var ConfirmBattleContainer = React.createClass({
   }
   getInitialState: function({
     return {
-      isLoading: true,
+      isLoading: false,
       playerInfo: []
     }
   }),
