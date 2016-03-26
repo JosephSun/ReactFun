@@ -1,21 +1,21 @@
 const axios = require('axios');
 
 const id = "YOUR_CLIENT_ID";
-const id = "YOUR_SECRET_ID";
-const id = "?client_id=" + id + "&client_secret=" + sec;
+const sec = "YOUR_SECRET_ID";
+const param = "?client_id=" + id + "&client_secret=" + sec;
 
 function getUserInfo(username) {
-  return axios.get("https://api.github.com/users/" + username + param);
+  return axios.get('https://api.github.com/users/' + username + param);
 }
 
-const helpers: {
+const helpers = {
   getPlayersInfo: function(players) {
     return axios.all(players.map(function(username) {
-      return getUserInfo(username)
+      return getUserInfo(username);
     })).then(function(info) {
-
-    })
-    }
+      console.log("Info", Info);
+    });
+  },
 };
 
 module.exports = helpers
