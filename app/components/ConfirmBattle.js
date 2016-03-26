@@ -1,5 +1,6 @@
-var React = require('react');
+const React = require('react');
 
+function puke()
 function ConfirmBattle (props) {
   return props.isLoading === true
     ? <p>LOADING</p>
