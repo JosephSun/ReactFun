@@ -19,8 +19,8 @@ const ConfirmBattleContainer = React.createClass({
       this.setState({
         isLoading: false,
         playersInfo: [players[0], players[1]],
-      })
-    })
+      });
+    }.bind(this));
   },
   render: function () {
     return (
