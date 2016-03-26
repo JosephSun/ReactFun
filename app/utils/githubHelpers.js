@@ -13,10 +13,9 @@ const helpers: {
     return axios.all(players.map(function(username) {
       return getUserInfo(username)
     })).then(function(info) {
-      
+
     })
-    }))
-  }
+    }
 };
 
 module.exports = helpers
