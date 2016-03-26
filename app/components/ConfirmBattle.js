@@ -1,7 +1,7 @@
 const React = require('react');
 
 function puke(object) {
-  return <pre{JSON.stringify(obj, null, ' ')}></pre>
+  return <pre>{JSON.stringify(object, null, ' ')}</pre>
 }
 function ConfirmBattle (props) {
   return props.isLoading === true
