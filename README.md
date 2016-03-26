@@ -1,2 +1,2 @@
 # ReactFun
-New React Project
+Following along with tylermcginnis Reactjs fundamentals 
